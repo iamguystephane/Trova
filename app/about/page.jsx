@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div className="w-full px-8">
       <div>
-        <h1 className="text-2xl font-bold my-8"> Who we </h1>
+        <h1 className="text-2xl font-bold my-8"> Who we are </h1>
         <p>
           TROVA is a reputable company known for its exceptional GPS tracking
           services. With a strong focus on security and accuracy, we offer a

@@ -62,6 +62,9 @@ export default function ContactForm() {
         toast("Message sent successfully", {
           description: "We will be in touch with you. Please be patient.",
         });
+        setTimeout(() => {
+          window.location.reload();
+        }, 4000);
       } catch (err) {
         toast("Failed to send message", {
           description:

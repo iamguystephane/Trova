@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function WorkerCard({ worker }) {
   return (
-    <Card className="xsm:w-full xsm:h-[780px] md:w-[350px] md:h-[700px] !p-0 transition-all duration-300 ease-in-out hover:-translate-y-4 cursor-pointer">
+    <Card className="xsm:w-full xsm:min-h-[650px] md:w-[350px] md:min-h-[700px] !p-0 transition-all duration-300 ease-in-out hover:-translate-y-4 cursor-pointer">
       <CardHeader className="!p-0">
         <Image
           src={worker.image}
