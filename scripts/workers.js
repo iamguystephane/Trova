@@ -101,6 +101,16 @@ const workers = [
     skills: ["Software Developer", "Communication", "Adaptability", "Teamwork"],
     hobbies: ["Music", "Gaming", "Movie", "Anime"],
   },
+  {
+    id: "10",
+    image: "/images/ngala.jpg",
+    names: "NGALA NFONJI R. R.",
+    role: "CEO",
+    department: "Project Management",
+    school: "CITEC Higher Institute of Technology and Management",
+    skills: ["Digital Marketing", "MS Office", "Project Software", "Leadership", "Teamwork", "Language Proficiency"],
+    hobbies: ["Writing", "Video and Music Production", "Hiking", "Photography"],
+  },
 ];
 
 export default workers;

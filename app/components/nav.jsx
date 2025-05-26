@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/next.svg";
 import { useRouter } from "next/navigation";
+import logo from "../../public/images/logo.jpg";
 import { usePathname } from "next/navigation";
 
 export default function Nav() {
@@ -20,13 +20,13 @@ export default function Nav() {
   };
 
   return (
-    <div className="flex items-center justify-between w-full px-10 bg-mainColor text-white xsm:hidden md:flex">
+    <div className="flex items-center justify-between w-full px-10 py-5 bg-mainColor text-white xsm:hidden md:flex">
       <Image
         src={logo}
         width={500}
         height={500}
         alt="Logo"
-        className="w-20 h-20 cursor-pointer"
+        className="w-14 h-14 cursor-pointer rounded-full"
         onClick={() => router.push("/")}
       />
       <ul className="flex items-center justify-center gap-6">
