@@ -21,25 +21,25 @@ export default function WorkerCard({ worker }) {
       <CardContent className="p-5 flex justify-center gap-2 flex-col">
         <div>
           <h1> Names: </h1>
-          <p className="uppercase text-sm"> {worker.names} </p>
+          <p className="uppercase text-sm font-thin"> {worker.names} </p>
         </div>
         <div>
           <h1> Role: </h1>
-          <p className="uppercase text-sm text-secondaryColor">{worker.role}</p>
+          <p className="uppercase text-sm text-secondaryColor font-thin">{worker.role}</p>
         </div>
         <div>
           <h1> Department: </h1>
-          <p className="uppercase text-sm"> {worker.department} </p>
+          <p className="uppercase text-sm font-thin"> {worker.department} </p>
         </div>
         <div>
           <h1> School: </h1>
-          <p className="uppercase text-sm">{worker.school}</p>
+          <p className="uppercase text-sm font-thin">{worker.school}</p>
         </div>
         <div className="w-full">
           <h1> Skills: </h1>
           <div className="flex gap-1 flex-wrap">
             {worker.skills.map((skill) => (
-              <p className="uppercase text-sm" key={skill}>
+              <p className="uppercase text-sm font-thin" key={skill}>
                 {skill}
               </p>
             ))}
@@ -49,7 +49,7 @@ export default function WorkerCard({ worker }) {
           <h1> Hobbies: </h1>
           <div className="flex gap-1 flex-wrap">
             {worker.hobbies.map((hobby) => (
-              <p className="uppercase text-sm" key={hobby}>
+              <p className="uppercase text-sm font-thin" key={hobby}>
                 {hobby}
               </p>
             ))}

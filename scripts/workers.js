@@ -108,8 +108,25 @@ const workers = [
     role: "CEO",
     department: "Project Management",
     school: "CITEC Higher Institute of Technology and Management",
-    skills: ["Digital Marketing", "MS Office", "Project Software", "Leadership", "Teamwork", "Language Proficiency"],
+    skills: [
+      "Digital Marketing",
+      "MS Office",
+      "Project Software",
+      "Leadership",
+      "Teamwork",
+      "Language Proficiency",
+    ],
     hobbies: ["Writing", "Video and Music Production", "Hiking", "Photography"],
+  },
+  {
+    id: "11",
+    image: "/images/mbah.jpg",
+    names: "Zaolefack Emmanuel Zatah.",
+    role: "CEO",
+    department: "Project Management",
+    school: "CITEC Higher Institute of Technology and Management",
+    skills: ["Buying and Selling"],
+    hobbies: ["Sport", "Dancing", "Swimming"],
   },
 ];
 

@@ -6,8 +6,10 @@ import Image from "next/image";
 import logo from "../../public/images/logo.jpg";
 import MenuModal from "./menu-modal";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const MobileNav = () => {
+  const router = useRouter();
   const [displayModal, setDisplayModal] = useState(false);
   return (
     <>
@@ -19,6 +21,7 @@ const MobileNav = () => {
             height={500}
             alt="Logo"
             className="w-14 h-14 cursor-pointer rounded-full"
+            onClick={() => router.push("/")}
           />
           <Button
             className="!bg-secondaryColor"
