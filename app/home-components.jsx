@@ -10,7 +10,7 @@ export default function HomeComponents() {
           <h1 className="text-white font-bold text-[40px] tracking-widest">
             TROVA TECHNOLOGY
           </h1>
-          <p className="text-white text-xl"> Secure Your Assets With Us </p>
+          <p className="text-white text-xl"> Find your fleet, find your future. </p>
         </div>
       </header>
       <h1 className="mt-10 text-center w-full text-3xl"> Our Services </h1>
