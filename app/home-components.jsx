@@ -10,12 +10,12 @@ export default function HomeComponents() {
           <h1 className="text-white font-bold text-[40px] tracking-widest">
             TROVA TECHNOLOGY
           </h1>
-          <p className="text-white text-xl"> Secure Your Asset With Us </p>
+          <p className="text-white text-xl"> Secure Your Assets With Us </p>
         </div>
       </header>
       <h1 className="mt-10 text-center w-full text-3xl"> Our Services </h1>
       <p className="w-full text-center">
-        We are knowing for the quality of our services.
+        We are known for the quality of our services.
       </p>
       <div className="my-10 flex flex-wrap items-center justify-center w-full gap-6 px-8">
         {services.map((service) => (

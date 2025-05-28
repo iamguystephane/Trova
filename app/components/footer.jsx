@@ -5,7 +5,7 @@ import {
   Phone,
   InstagramIcon,
   FacebookIcon,
-  LinkedinIcon
+  LinkedinIcon,
 } from "lucide-react";
 export default function Footer() {
   return (
@@ -14,9 +14,11 @@ export default function Footer() {
         <div className="xsm:w-full md:w-1/3 flex flex-col justify-center gap-8">
           <h1 className="border-b-2 border-b-secondaryColor w-fit">About Us</h1>
           <p>
-            TROVA is a tracking company that help car owners to be able to keep
-            track of their vehicle. This helps them secure their vehicle in case
-            it gets lost, or stolen.
+            TROVA is a company that specializes in providing GPS tracking
+            solutions for vehicles and assets, be it for an individual or a
+            business. We offer a wider range of products and services including
+            real-time tracking, alerts, geofencing, and historical route
+            reports. We aim to optimize, improve efficiency, and reduce costs.
           </p>
         </div>
         <div className="flex flex-col md:justify-center md:items-center gap-8 xsm:w-full md:w-fit">
@@ -45,7 +47,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-2 mb-4 w-full">
             <Phone color="orangered" />
-            <Link href="tel:+237672280977"> 672280977 </Link>
+            <Link href="tel:+237672280977"> 680950038 </Link>
           </div>
           <div className="flex items-center gap-2 w-full">
             <Mail color="orangered" />
